@@ -12,6 +12,9 @@ package ec.edu.ups.ppw63.proyectofinal;
 public class ProyectoFinal {
 
     public static void main(String[] args) {
+        pantalla p = new pantalla();
+        p.setVisible(true);
+        p.setLocationRelativeTo(null);
         System.out.println("ño");
     }
 }
